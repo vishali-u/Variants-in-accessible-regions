@@ -4,15 +4,16 @@
 
 library(tidyverse)
 
-# Combine the gwas_dar_intersection files into one data fram
-combined_rds <- list.files(path = '~/BCB330/gwas_dar/sz/intersection_files', 
+# Combine the gwas_dar_intersection files into one data frame
+combined_rds <- list.files(path = '~/BCB330/gwas_dar/sz/intersected_files', 
                            pattern = '*.rds', full.names = TRUE) %>%
   map_dfr(read_rds)
 
+combined_rds <- filter(combined_rds, !(index_snp == 'fake_entry')) 
 
 # Get all the cell names (these are the columns that need to be pivoted to 
 # longer format)
-cell_names = colnames(combined_rds)[25:35]
+cell_names = colnames(combined_rds)[25:36]
 
 # Change table from wide to long
 formatted <- pivot_longer(combined_rds, cols = cell_names, 
@@ -20,5 +21,7 @@ formatted <- pivot_longer(combined_rds, cols = cell_names,
 
 # Only keep the cell types in which the SNP is accessible
 filtered <- filter(formatted, accessible == 1)
+
+filtered <- select(filtered, -accessible)
 
 saveRDS(filtered, file = '~/BCB330/gwas_dar/sz/intersection.rds')

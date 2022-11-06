@@ -107,7 +107,7 @@ for (i in args:ending) {
           # contain a 1
           if (dev_dar[j,][k] == 1) {
             row[[colnames(dev_dar)[k]]] <- 1
-            row['accessible_region'] <- paste(peak_chr,':', peak_start, '-', 
+            row['accessible_region'] <- paste('chr', peak_chr,':', peak_start, '-', 
                                               peak_end, sep = '')
           }
         }
@@ -126,7 +126,7 @@ for (i in args:ending) {
 
 # Save the data into a file
 saveRDS(intersection, file = 
-          paste("~/BCB330/gwas_dar/sz/intersection_files/intersection", 
+          paste("~/BCB330/gwas_dar/sz/intersected_files/intersection", 
                                    as.character(args),".rds", sep=""))
 
 
