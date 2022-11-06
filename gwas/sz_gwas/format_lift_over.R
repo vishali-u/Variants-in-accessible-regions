@@ -7,7 +7,7 @@ library(stringr)
 
 # Read the SNP data contained in the excel file on the specified sheet
 # and insert a new column to with the formatted positions
-SNP_data <- read_excel('~/BCB330/gwas/sz_gwas/gwas_data_hg37.xlsx', 
+SNP_data <- read_excel('~/BCB330/gwas/sz_gwas/sz_gwas_hg37.xlsx', 
                        sheet = 'ST11b 95% Credible Sets k≤3.5',
                        guess_max = 20800) %>%
   mutate(liftover = paste("chr", as.character(chromosome), 
@@ -40,4 +40,4 @@ corrected_SNP_data <- filter(SNP_data, !(liftover %in% failures)) %>%
 return_data <- subset(corrected_SNP_data, select = -c(V1, liftover))
 
 # Save the data into a file with the given name
-saveRDS(return_data, file = '~/BCB330/gwas/sz_gwas/SZ_finemapped_hg38.rds')
+saveRDS(return_data, file = '~/BCB330/gwas/sz_gwas/sz_gwas_hg38.rds')

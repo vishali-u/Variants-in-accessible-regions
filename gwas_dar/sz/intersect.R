@@ -7,7 +7,7 @@ ending <- args + 4
 
 # Import chromatin accessibility & gwas data
 dev_dar <- readRDS('~/BCB330/chromatin_accessibility/ziffra_2021/developmental_dar.rds')
-gwas_data <- readRDS('~/BCB330/gwas/sz_gwas/sz_finemapped_hg38.rds')
+gwas_data <- readRDS('~/BCB330/gwas/sz_gwas/sz_gwas_hg38.rds')
 
 # Add fake entry to GWAS list to verify that code is working
 gwas_data[1,] <- list('fake_entry', 0, 0, 'fake_entry', 
