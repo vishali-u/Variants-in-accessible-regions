@@ -122,8 +122,6 @@ for (i in args:ending) {
 }
 
 
-
-
 # Save the data into a file
 saveRDS(intersection, file = 
           paste("~/BCB330/gwas_dar/sz/intersected_files/intersection", 
