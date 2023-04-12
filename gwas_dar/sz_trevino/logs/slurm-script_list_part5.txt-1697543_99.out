@@ -1,0 +1,23 @@
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	✔ ggplot2 3.3.5      ✔ purrr   0.3.4 
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	✔ tibble  3.1.8      ✔ dplyr   1.0.10
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	✔ tidyr   1.2.1      ✔ stringr 1.4.0 
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	✔ readr   1.4.0      ✔ forcats 0.5.1 
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	✖ dplyr::filter() masks stats::filter()
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	✖ dplyr::lag()    masks stats::lag()
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	Warning messages:
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	1: replacing previous import ‘ellipsis::check_dots_unnamed’ by ‘rlang::check_dots_unnamed’ when loading ‘hms’ 
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	2: replacing previous import ‘ellipsis::check_dots_used’ by ‘rlang::check_dots_used’ when loading ‘hms’ 
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	3: replacing previous import ‘ellipsis::check_dots_empty’ by ‘rlang::check_dots_empty’ when loading ‘hms’ 
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	Attaching package: ‘data.table’
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	The following objects are masked from ‘package:dplyr’:
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	    between, first, last
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	The following object is masked from ‘package:purrr’:
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	    transpose
+/nethome/kcni/vumaiyalan/BCB330/gwas_dar/sz_trevino/shell_scripts/sz_20491.sh	
