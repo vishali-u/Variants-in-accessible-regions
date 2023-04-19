@@ -7,7 +7,7 @@ Prioritizing psychiatric GWAS variants in neurodevelopmental cell types using ch
   * Example analysis of ATAC-seq data using Signac and Seurat: https://stuartlab.org/signac/articles/pbmc_vignette.html
 * trevino_2021
   * Paper: https://doi.org/10.1016/j.cell.2021.07.039
-  * Data: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi (GEO: GSE162170)
+  * Data: https://www.ncbi.nlm.nih.gov/geo/ (GEO: GSE162170)
   * Included single-ATAC-seq data and multiome ATAC-seq data
 * ziffra_2021
   * Paper: https://doi.org/10.1038/s41586-021-03209-8
