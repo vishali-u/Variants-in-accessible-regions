@@ -1,4 +1,4 @@
-# BCB330
+# Variants in accessible regions
 
 Prioritizing psychiatric GWAS variants in neurodevelopmental cell types using chromatin accessibility
 
